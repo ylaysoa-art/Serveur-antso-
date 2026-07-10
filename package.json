@@ -1,11 +1,13 @@
 {
-}
   "name": "serveur-antso",
   "version": "1.0.0",
-  "main": "server.js",
-  "scripts": { "start": "node server.js" },
+  "description": "Serveur pour app d'appel video",
+  "main": "serveur.js",
+  "scripts": {
+    "start": "node serveur.js"
+  },
   "dependencies": {
     "express": "^4.18.2",
-    "socket.io": "^4.7.2''
-       }  
-     }
+    "socket.io": "^4.7.2"
+  }
+}
